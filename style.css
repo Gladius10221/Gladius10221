@@ -48,15 +48,64 @@ body{
   font-size: 80px;
 }
 #head{
+  padding-top: 20px;
   font-family: new;
   color: white;
-  height: 70px;
   width: 100%;
   position: fixed;
+  padding-left: 10px;
+  font-size: 30px;
+  height: 0px;
+}
+#headka{
+  animation-name: cool;
+  animation-duration: 0.3s;
+  font-family: new;
+  color: white;
+  width: 100%;
+  height: 70px;
   padding-top: 1%;
+  position: fixed;
   padding-left: 10px;
   font-size: 30px;
   z-index: 2;
+}
+#headka1{
+  padding-top: 20px;
+  animation-name: no-cool;
+  animation-duration: 0.3s;
+  font-family: new;
+  height: 100px;
+  color: white;
+  width: 100%;
+  position: fixed;
+  padding-left: 10px;
+  font-size: 30px;
+  z-index: 2;
+}
+@keyframes cool{
+  0%{
+    padding-top: 20px;
+    height: 100px;
+  }
+  100%{
+    padding-top: 13px;
+    height: 70px;
+    animation-play-state: paused;
+  }
+}
+@keyframes no-cool{
+  0%{
+    background: #31070f;
+    padding-top: 13px;
+    height: 70px;
+  }
+  100%{
+    background: none;
+    padding-top: 20px;
+    height: 100px;
+    animation-play-state: paused;
+  }
 }
 .rst{
   display: none;
