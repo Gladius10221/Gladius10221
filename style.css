@@ -46,7 +46,7 @@ body{
   height: 400px;
   background-image: linear-gradient(to top left, #6f0437, #461603);
   border-radius: 20px;
-  box-shadow: 10px 10px 10px #8a0530;
+  box-shadow: 10px 10px 20px #6f0437;
 }
 .word{
   color: red;
@@ -183,7 +183,7 @@ body{
   opacity: 0.5;
   z-index: 3;
   border-radius: 10px;
-  box-shadow: 1px 10px 40px #3b0520;
+  box-shadow: 1px 10px 60px #3b0520;
   text-align: center;
   color: white;
   font-family: bl;
