@@ -17,21 +17,36 @@ body{
   font-size: 60px;
   padding: 50px;
   color: white;
-  margin-top: 40px;
+  margin-top: 100px;
 }
 .cls{
   float: right;
   margin-right: 5%;
 }
-.foto1{
-  float: right;
-  margin: 20px;
-}
 .foto2{
-  margin: 20px;
+  margin-top: 30px;
+  float: left;
+  margin-left: 40px;
+  pointer-events: none;
 }
 .blok2{
-  height: 700px;
+  margin: 20px;
+  height: 400px;
+  margin-bottom: 200px;
+}
+.blok21{
+  background: blue;
+  border-radius: 10px;
+  height: 100%;
+  width: 40%;
+  margin-left: 5%;
+}
+.block3{
+  margin: 20px;
+  height: 400px;
+  background-image: linear-gradient(to top left, #6f0437, #461603);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #8a0530;
 }
 .word{
   color: red;
@@ -127,6 +142,7 @@ body{
   min-width: 100px;
   display: block;
   z-index: 1;
+  pointer-events: none;
 }
 #main{
   margin-top: -350px;
@@ -141,11 +157,12 @@ body{
   }
 }
 #footer{
+
   width: 100%;
-  height: 50px;
+  height: 300px;
   margin-top: 100px;
   color: white;
-  background: grey;
+  background: #260107;
 }
 @media screen and (max-width: 1200px){
   #footer{
@@ -159,14 +176,17 @@ body{
 }
 #block1{
   margin-left: 30px;
-  background: grey;
+  background: #3b0520;
   width: 50%;
   margin-top: 20%;
   min-height: 800px;
   opacity: 0.5;
   z-index: 3;
   border-radius: 10px;
-  box-shadow: 14px 10px 20px silver;
+  box-shadow: 1px 10px 40px #3b0520;
+  text-align: center;
+  color: white;
+  font-family: bl;
 }
 @media screen and (max-width: 1200px){
   #block3{

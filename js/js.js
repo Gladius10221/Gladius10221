@@ -6,10 +6,9 @@ $(function(){
   }
   $(window).scroll(function(){
     let rr = $(window).scrollTop();
-    console.log(rr);
     if (rr == 0){
       $('#headka').attr('id', 'headka1').css({'box-shadow' : 'none', 'background' : 'none'});
-      let timerIdsd = setInterval(() => $('#headka1').attr('id', 'head'), 700);
+      let timerIdsd = setInterval(() => $('#headka1').attr('id', 'head'), 600);
     }else{
       $('#head').css({'background' : '#31070f', 'box-shadow' : '1px 5px 10px #430920'}).attr('id', 'headka');
     }
@@ -46,4 +45,7 @@ $('#k6').fadeOut(300, function(){
 lor()
 let timer = setInterval(() => lor(), 600);
 setTimeout(() => { clearInterval(timer)}, 3000);
+
+
+
 });
