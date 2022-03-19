@@ -11,6 +11,10 @@ body{
     min-width: 1100px;
     margin: 0px;
 }
+.podtext{
+  font-family: new;
+  font-size: 21px;
+}
 .text1{
   font-family: bl;
   text-align: center;
@@ -42,6 +46,10 @@ body{
   margin-left: 5%;
 }
 .block3{
+  padding: 10px;
+  font-family: new;
+  font-size: 20px;
+  color: white;
   margin: 20px;
   height: 400px;
   background-image: linear-gradient(to top left, #6f0437, #461603);
