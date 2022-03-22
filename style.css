@@ -11,9 +11,25 @@ body{
     min-width: 1100px;
     margin: 0px;
 }
+.headbl1{
+  margin-top: 70px;
+  margin-bottom: 40px; 
+  text-align: center;
+  font-family: bl;
+  font-size: 60px;
+  color: white;
+}
+.blp{
+  margin-top: 10px;
+  background: blue;
+  height: 300px;
+}
 .podtext{
   font-family: new;
   font-size: 21px;
+}
+.tete{
+  background-image: linear-gradient(to top left, #6f0437, #461603);
 }
 .text1{
   font-family: bl;
@@ -28,8 +44,7 @@ body{
   margin-right: 5%;
 }
 .foto2{
-  margin-top: 30px;
-  float: left;
+  float: right;
   margin-left: 40px;
   pointer-events: none;
 }
@@ -48,13 +63,16 @@ body{
 .block3{
   padding: 10px;
   font-family: new;
-  font-size: 20px;
+  font-size: 21px;
   color: white;
   margin: 20px;
-  height: 400px;
-  background-image: linear-gradient(to top left, #6f0437, #461603);
+  height: 450px;
+  background-image: url(123.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
   border-radius: 20px;
   box-shadow: 10px 10px 20px #6f0437;
+  margin-bottom: 400px;
 }
 .word{
   color: red;
@@ -136,6 +154,8 @@ body{
 #foto{
   margin: 0;
   background-image: url("1.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
   min-height: 500px;
 
 }
@@ -165,7 +185,6 @@ body{
   }
 }
 #footer{
-
   width: 100%;
   height: 300px;
   margin-top: 100px;

@@ -45,7 +45,16 @@ $('#k6').fadeOut(300, function(){
 lor()
 let timer = setInterval(() => lor(), 600);
 setTimeout(() => { clearInterval(timer)}, 3000);
-
-
-
+function resize(){
+  let width = $(window).width();
+  if (width < 1050){
+    $('.block3').css({'font-size' : '15px'});
+  }else{
+    $('.block3').css({'font-size' : '21px'});
+  }
+}
+$(window).resize(function(){
+  resize();
+});
+resize();
 });
