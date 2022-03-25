@@ -11,9 +11,19 @@ body{
     min-width: 1100px;
     margin: 0px;
 }
+.background{
+  height: 1500px;
+  padding-top: 1pt;
+  background-image: url('221.gif');
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1500px;
+}
 .headbl1{
   margin-top: 70px;
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
   text-align: center;
   font-family: bl;
   font-size: 60px;
@@ -152,6 +162,8 @@ body{
   display: none;
 }
 #foto{
+  padding-top: 150px;
+  z-index: 2;
   margin: 0;
   background-image: url("1.jpg");
   background-size: 100%;
@@ -173,7 +185,6 @@ body{
   pointer-events: none;
 }
 #main{
-  margin-top: -350px;
   text-align: center;
   font-size: 50px;
   margin-right: 30%;
@@ -205,7 +216,7 @@ body{
   margin-left: 30px;
   background: #3b0520;
   width: 50%;
-  margin-top: 20%;
+  margin-top: 4%;
   min-height: 800px;
   opacity: 0.5;
   z-index: 3;
