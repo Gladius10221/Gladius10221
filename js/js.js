@@ -57,4 +57,17 @@ $(window).resize(function(){
   resize();
 });
 resize();
+function resize2(){
+  let width = $(window).width();
+  if (width < 1201){
+    $('.background').attr('class' , 'nobody');
+    $('#block1').css({'margin-top' : '10px'});
+  }else{
+    $('.nobody').attr('class' , 'background');
+  }
+}
+$(window).resize(function(){
+  resize2();
+});
+resize2();
 });
