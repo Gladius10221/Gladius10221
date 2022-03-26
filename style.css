@@ -11,15 +11,22 @@ body{
     min-width: 1100px;
     margin: 0px;
 }
+.txtbl{
+  color: white;
+  font-size: 20px;
+  font-family: new;
+}
 .background{
+  margin-top: -7px;
   height: 1500px;
-  padding-top: 1pt;
+  padding-top: 10pt;
   background-image: url('221.gif');
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 1400px;
+  box-shadow: 0px 20px 10px #430920;
 }
 .headbl1{
   margin-top: 70px;
@@ -30,8 +37,14 @@ body{
   color: white;
 }
 .blp{
+  color: white;
+  font-size: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  opacity: 0.7;
   margin-top: 10px;
-  background: blue;
+  background: #1f0231;
   height: 300px;
 }
 .podtext{
@@ -73,7 +86,7 @@ body{
 .block3{
   padding: 10px;
   font-family: new;
-  font-size: 21px;
+  font-size: 13px;
   color: white;
   margin: 20px;
   height: 450px;

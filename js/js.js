@@ -47,10 +47,10 @@ let timer = setInterval(() => lor(), 600);
 setTimeout(() => { clearInterval(timer)}, 3000);
 function resize(){
   let width = $(window).width();
-  if (width < 1050){
+  if (width < 1130){
     $('.block3').css({'font-size' : '15px'});
   }else{
-    $('.block3').css({'font-size' : '21px'});
+    $('.block3').css({'font-size' : '18px'});
   }
 }
 $(window).resize(function(){
@@ -59,7 +59,7 @@ $(window).resize(function(){
 resize();
 function resize2(){
   let width = $(window).width();
-  if (width < 1201){
+  if (width < 1160){
     $('.background').attr('class' , 'nobody');
     $('#block1').css({'margin-top' : '10px'});
   }else{
