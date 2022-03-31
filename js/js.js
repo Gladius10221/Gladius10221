@@ -8,7 +8,7 @@ $(function(){
     let rr = $(window).scrollTop();
     if (rr == 0){
       $('#headka').attr('id', 'headka1').css({'box-shadow' : 'none', 'background' : 'none'});
-      let timerIdsd = setInterval(() => $('#headka1').attr('id', 'head'), 600);
+      setTimeout(() => $('#headka1').attr('id', 'head'), 600);
     }else{
       $('#head').css({'background' : '#31070f', 'box-shadow' : '1px 5px 10px #430920'}).attr('id', 'headka');
     }
@@ -70,4 +70,29 @@ $(window).resize(function(){
   resize2();
 });
 resize2();
+function pool(){
+let heihj = $(window).width();
+if (heihj <= 576){
+$('.polo').css({'margin-left' : '25%'});
+}else{
+  $('.polo').css({'margin-left' : '0%'});
+}
+}
+pool();
+$(window).resize(function(){
+  pool();
+});
+function resizered(){
+  let widthl = $(window).width();
+  if (widthl < 768){
+    $('#footer').css({'height' : '450px'});
+  } if (widthl < 577){
+    $('#footer').css({'height' : '800px'});
+  }if (widthl > 768){
+      $('#footer').css({'height' : '300px'});
+  }
+}
+$(window).resize(function(){
+  resizered();
+});
 });
